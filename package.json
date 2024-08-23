@@ -1,19 +1,17 @@
 {
-  "name": "pkg-placeholder",
+  "name": "@pingtou/axios-jsonp",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@9.5.0",
-  "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "A jsonp adapter for axios",
+  "author": "bijinfeng <bijinfeng1016@gmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/bijinfeng/axios-jsonp.git"
   },
   "bugs": "https://github.com/antfu/pkg-placeholder/issues",
-  "keywords": [],
+  "keywords": ["jsonp", "axios"],
   "sideEffects": false,
   "exports": {
     ".": {
