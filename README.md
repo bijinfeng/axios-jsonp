@@ -1,4 +1,4 @@
-# pkg-placeholder
+# @pingtou/axios-jsonp
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,22 +6,34 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-_description_
+A jsonp adapter for axios
 
-> **Note**:
-> Replace `pkg-placeholder`, `_description_` and `antfu` globally to use this template.
+support promise，support cancel，same as xhr
 
-## Sponsors
+## Install
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg'/>
-  </a>
-</p>
+```bash
+npm i @pingtou/axios-jsonp
+```
+
+## Usage
+
+```javascript
+import axios from 'axios'
+import { jsonpAdapter } from '@pingtou/axios-jsonp'
+
+axios({
+  url: '/jsonp',
+  adapter: jsonpAdapter,
+  callbackParamName: 'c' // optional, 'callback' by default
+}).then((res) => {
+
+})
+```
 
 ## License
 
-[MIT](./LICENSE) License © 2024-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE)
 
 <!-- Badges -->
 
