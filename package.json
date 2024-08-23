@@ -1,7 +1,7 @@
 {
   "name": "@pingtou/axios-jsonp",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@9.5.0",
   "description": "A jsonp adapter for axios",
   "author": "bijinfeng <bijinfeng1016@gmail.com>",
